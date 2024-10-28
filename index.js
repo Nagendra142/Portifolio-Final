@@ -4,6 +4,7 @@ const heading=document.getElementById('heading');
 
 window.addEventListener('scroll', () => {
     let { scrollY } = window;
+    let a=1;
     let value=(0.5) * scrollY 
     imgPos.style.top = value+ 'px';
     // heading.style.transform = 'translateX('+(0.2*scrollY)+'%)';
